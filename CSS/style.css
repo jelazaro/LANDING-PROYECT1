@@ -15,9 +15,9 @@ body {
     padding: 0;
   }
   
-  /* Estilos del header */
-  header {
-    background-color: #333;
+/* Estilos del header */
+header {
+    background-color: rgb(12,68,100); 
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -25,20 +25,50 @@ body {
     padding: 10px;
   }
   
-  .logo h1 {
-    margin: 0;
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 5%;
   }
   
+  .logo a {
+    margin: 0px;
+    margin-right: 40px;
+  }
+
+  .logo-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .nav-bar {
+    width: 90%;
+    margin-left: 0;
+    padding: 0;
+  }
+
   nav ul {
     display: flex;
+    align-items: center;
   }
   
   nav li {
     margin-left: 20px;
+    list-style-type: none;
   }
   
   nav a {
     font-size: 18px;
+  }
+  
+  .cart {
+    width: 5%;
+    margin-right: 20px;
+  }
+
+  .cart-logo {
+    width: 40px;
+    height: 40px;
   }
   
   /* Estilos del jumbotron */
