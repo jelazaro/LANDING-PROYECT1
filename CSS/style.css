@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del header */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    font-size: 18px;
+  }
+  
+  /* Estilos del jumbotron */
+  #jumbotron {
+    background-image: url('jumbotron-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .jumbotron-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .jumbotron-content h2 {
+    font-size: 48px;
+    margin-top: 0;
+  }
+  
+  .jumbotron-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type=email] {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  form button[type=submit] {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos del catálogo de productos */
+  #catalogue {
+    padding: 50px;
+    background-color: #f2f2f2;
+  }
+  
+  #catalogue h3 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #catalogue ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #catalogue li {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    min-width: 250px;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Estilos del blog */
+  #blog {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  #blog h3 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  #blog ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #blog li {
+    margin: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 5px; }
